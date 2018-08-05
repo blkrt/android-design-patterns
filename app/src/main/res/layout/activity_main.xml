@@ -23,6 +23,7 @@
             android:textColor="@android:color/black"/>
 
         <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/builder"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Builder"
@@ -30,6 +31,7 @@
             />
 
         <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/factory"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Factory"
@@ -37,6 +39,7 @@
             />
 
         <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/singleton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Singleton"
@@ -44,6 +47,7 @@
             />
 
         <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/dependency_injection"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Dependency Injection"

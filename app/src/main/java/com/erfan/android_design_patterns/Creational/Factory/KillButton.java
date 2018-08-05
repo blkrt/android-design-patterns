@@ -6,7 +6,7 @@ package com.erfan.android_design_patterns.Creational.Factory;
 
 public class KillButton implements IButton {
     @Override
-    public void fire() {
-        System.out.println("Kill it !");
+    public String fire() {
+        return "Kill it !";
     }
 }

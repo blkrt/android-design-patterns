@@ -8,8 +8,8 @@ public class Singleton {
     private static Singleton INSTANCE = null;
 
     private String firstName = "I";
-    private String lastName = "am";
-    private String job = "A Developer";
+    private String lastName = " am";
+    private String job = " a Developer";
 
     private Singleton() {}
 
@@ -22,7 +22,7 @@ public class Singleton {
 
 
     public String getCurrentJob(){
-        return "A Developer";
+        return job;
     }
 
     public String getFirstName() {

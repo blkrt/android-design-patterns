@@ -5,5 +5,5 @@ package com.erfan.android_design_patterns.Creational.Factory;
  */
 
 public interface IButton {
-    void fire();
+    String fire();
 }

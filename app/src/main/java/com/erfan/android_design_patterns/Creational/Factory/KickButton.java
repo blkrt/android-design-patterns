@@ -6,7 +6,7 @@ package com.erfan.android_design_patterns.Creational.Factory;
 
 public class KickButton implements IButton {
     @Override
-    public void fire() {
-        System.out.println("Kick it !");
+    public String fire() {
+        return "Kick it !";
     }
 }

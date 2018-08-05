@@ -15,6 +15,18 @@ public class User {
         age = builder.age;
     }
 
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
     public static class Builder {
         private String firstName;
         private String lastName;

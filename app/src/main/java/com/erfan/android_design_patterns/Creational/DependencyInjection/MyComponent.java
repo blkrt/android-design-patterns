@@ -1,6 +1,6 @@
 package com.erfan.android_design_patterns.Creational.DependencyInjection;
 
-import com.erfan.android_design_patterns.MainActivity;
+import com.erfan.android_design_patterns.DependencyInjActivity;
 
 import javax.inject.Singleton;
 
@@ -13,5 +13,5 @@ import dagger.Component;
 @Singleton
 @Component(modules = MyModule.class)
 public interface MyComponent {
-    void inject(MainActivity mainActivity);
+    void inject(DependencyInjActivity dependencyInjActivity);
 }
