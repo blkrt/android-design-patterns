@@ -127,7 +127,14 @@
         <android.support.v7.widget.AppCompatTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Strategy"
+            android:text="Model View Controller"
+            android:textSize="18dp"
+            />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Clean Architecture"
             android:textSize="18dp"
             />
 
