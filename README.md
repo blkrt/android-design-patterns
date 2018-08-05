@@ -4,19 +4,19 @@ Design Patterns used in this project
 
 **Creational**
 
-+Builder
-+Factory
-+Singleton
-+Dependency Injection
+* Builder
+* Factory
+* Singleton
+* Dependency Injection
 
 **Structural** `TODO`
 
-+Composite
-+Facade
-+Adapter
+* Composite
+* Facade
+* Adapter
 
 **Behavioral** `TODO`
 
-+Command 
-+Observer
-+Clean Architecture
+* Command 
+* Observer
+* Clean Architecture
