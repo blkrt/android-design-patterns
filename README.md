@@ -9,7 +9,7 @@ Design Patterns used in this project
 * Singleton
 * Dependency Injection
 
-**Structural** `TODO`
+**Structural**
 
 * Composite
 * Facade
