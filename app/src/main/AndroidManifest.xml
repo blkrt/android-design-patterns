@@ -22,6 +22,7 @@
         <activity android:name=".FactoryActivity"/>
         <activity android:name=".SingletonActivity"/>
         <activity android:name=".DependencyInjActivity"/>
+        <activity android:name=".CompositeActivity"/>
 
     </application>
 

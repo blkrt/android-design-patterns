@@ -75,11 +75,11 @@
             android:textSize="24dp"/>
 
         <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/composite"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Composite"
-            android:textSize="18dp"
-            />
+            android:textSize="18dp"/>
 
         <android.support.v7.widget.AppCompatTextView
             android:layout_width="wrap_content"
