@@ -1,4 +1,4 @@
-package com.erfan.android_design_patterns.Structural;
+package com.erfan.android_design_patterns.Structural.Composite;
 
 import java.util.ArrayList;
 

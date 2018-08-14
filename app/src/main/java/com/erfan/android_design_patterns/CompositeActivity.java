@@ -4,10 +4,9 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.widget.Button;
 
-import com.erfan.android_design_patterns.Structural.CompositeGun;
-import com.erfan.android_design_patterns.Structural.DesertEagle;
+import com.erfan.android_design_patterns.Structural.Composite.CompositeGun;
+import com.erfan.android_design_patterns.Structural.Composite.DesertEagle;
 
 /**
  * Created by erfanblkrt on 8/14/2018.
@@ -31,7 +30,7 @@ public class CompositeActivity extends AppCompatActivity {
 
         mCompositeGun.add(mCompositeGun2);
 
-        ((Button) findViewById(R.id.fire)).setOnClickListener(new View.OnClickListener() {
+        (findViewById(R.id.fire)).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 mCompositeGun.Trigger();

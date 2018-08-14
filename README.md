@@ -19,4 +19,5 @@ Design Patterns used in this project
 
 * Command 
 * Observer
+* Model View Controller
 * Clean Architecture

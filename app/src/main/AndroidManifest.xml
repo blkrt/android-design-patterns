@@ -23,6 +23,7 @@
         <activity android:name=".SingletonActivity"/>
         <activity android:name=".DependencyInjActivity"/>
         <activity android:name=".CompositeActivity"/>
+        <activity android:name=".AdapterActivity"/>
 
     </application>
 
