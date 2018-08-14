@@ -24,6 +24,7 @@
         <activity android:name=".DependencyInjActivity"/>
         <activity android:name=".CompositeActivity"/>
         <activity android:name=".AdapterActivity"/>
+        <activity android:name=".FacadeActivity"/>
 
     </application>
 

@@ -82,6 +82,7 @@
             android:textSize="18dp"/>
 
         <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/facade"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Facade"
@@ -89,6 +90,7 @@
             />
 
         <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/adapter"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Adapter"

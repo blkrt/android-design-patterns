@@ -18,6 +18,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     TextView mSingleton;
     TextView mDependencyInjection;
     TextView mComposite;
+    TextView mFacade;
+    TextView mAdapter;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -29,11 +31,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         mSingleton = (TextView) findViewById(R.id.singleton);
         mDependencyInjection = (TextView) findViewById(R.id.dependency_injection);
         mComposite = (TextView) findViewById(R.id.composite);
+        mFacade = (TextView) findViewById(R.id.facade);
+        mAdapter = (TextView) findViewById(R.id.adapter);
         mBuilder.setOnClickListener(this);
         mFactory.setOnClickListener(this);
         mSingleton.setOnClickListener(this);
         mDependencyInjection.setOnClickListener(this);
         mComposite.setOnClickListener(this);
+        mAdapter.setOnClickListener(this);
+        mFacade.setOnClickListener(this);
     }
 
     @Override
@@ -48,6 +54,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             startActivity(new Intent(this, DependencyInjActivity.class));
         } else if (view == mComposite) {
             startActivity(new Intent(this, CompositeActivity.class));
+        } else if (view == mFacade) {
+            startActivity(new Intent(this, FacadeActivity.class));
+        } else if (view == mAdapter) {
+            startActivity(new Intent(this, AdapterActivity.class));
         }
     }
 }
